@@ -1,24 +1,18 @@
-# README
+## Kittens API
+This project is part of [The Odin Project Curriculum](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/kittens-api)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Description
+"_This is a fast and straightforward project where you’ll set up a Rails app to be a data-producing API… which is just a fancy way of saying that all your controller methods will render data instead of HTML. Consider this a drill in quickly building a pure vanilla RESTful resource. We won’t be working with an external API until the next project._"
 
-Things you may want to cover:
+### Requirements
+* gems:
+    * **rails** >= 6
 
-* Ruby version
+### Installation
+* clone repo
+* `cd` into directory
+* run `bundle`
+* migrate database with run `rails db:migrate`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Running
+* `rails s` to start server
